@@ -2,11 +2,12 @@ package aula003;
 
 public class Array {
 
-	int i;
-	Integer y; 
-	
+	int[] i = { 4, 5, 7, 8 };
+	Integer[] y ;
+
 	public void test(){
-		System.out.println(i + y);
+		System.out.println(i[2]);
+		
 	}
 
 }
